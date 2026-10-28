@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#075e42">
+  <title>MMM - Marché Marketing Mauritanie</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7f4;
+      color: #18352a;
+    }
+    header {
+      background: #075e42;
+      color: white;
+      text-align: center;
+      padding: 28px 16px;
+    }
+    .logo { font-size: 38px; font-weight: bold; }
+    header p { margin-bottom: 0; }
+    main {
+      max-width: 720px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 18px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px #0000000d;
+    }
+    h2 { color: #075e42; }
+    .button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #075e42;
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .secondary { background: #e3eee7; color: #075e42; }
+    .levels {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .level {
+      padding: 16px 8px;
+      background: #e3eee7;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 24px 12px;
+      color: #557064;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MMM</div>
+    <h1>Marché Marketing Mauritanie</h1>
+    <p>Une plateforme pour connecter les personnes et les opportunités.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Bienvenue sur MMM</h2>
+      <p>
+        Découvrez notre projet de marketing et de parrainage,
+        conçu pour la Mauritanie.
+      </p>
+      <a class="button" href="#inscription">Créer un compte</a>
+      <a class="button secondary" href="#connexion">Se connecter</a>
+    </section>
+
+    <section class="card">
+      <h2>Notre réseau à 4 niveaux</h2>
+      <p>Le système est organisé en quatre niveaux de parrainage.</p>
+      <div class="levels">
+        <div class="level">Niveau 1</div>
+        <div class="level">Niveau 2</div>
+        <div class="level">Niveau 3</div>
+        <div class="level">Niveau 4</div>
+      </div>
+    </section>
+
+    <section class="card" id="inscription">
+      <h2>Inscription</h2>
+      <p>La création des comptes sera activée dans une prochaine étape.</p>
+    </section>
+
+    <section class="card" id="connexion">
+      <h2>Connexion</h2>
+      <p>L'accès sécurisé des membres sera ajouté ultérieurement.</p>
+    </section>
+
+    <section class="card">
+      <h2>MMM en العربية</h2>
+      <p lang="ar" dir="rtl">
+        مرحباً بكم في السوق والتسويق الموريتاني
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    MMM — Marché Marketing Mauritanie
+  </footer>
+</body>
+</html>
